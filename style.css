@@ -1,0 +1,91 @@
+.mainContainer{
+
+  display: grid;
+  grid-template-rows: 200px 100px 1fr;
+  justify-items: center;
+  align-items: center;
+
+}
+.titleBar{
+  
+  font-size: 100px;
+
+}
+.actionBar{
+
+  display: grid;
+  grid-template-columns: 1fr 100px 100px 250px;
+  width: 1750px;
+
+}
+.libraryContainer{
+
+  display: grid;
+  grid-template-columns: 1504px 40px 294px 20px;
+  
+}
+.headingRow{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  border-style: solid;
+  border-width: 2px;
+
+  height: 54px;
+  width: 1500px;
+
+  background-color: rgb(236, 236, 236);
+
+}
+.bookRow{
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  border-style: solid;
+  border-width: 0px 2px 2px 2px;
+
+  height: 54px;
+  width: 1500px;
+
+}
+.tableBlockNormal{
+
+  border-style: solid;
+  border-width: 0px 2px 0px 0px;
+
+}
+.tableBlockFinal{
+
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+
+}
+.newBookFormContainer{
+
+  display: grid;
+  width: 294px;
+  height: 459px;
+  grid-template-rows: 354px 30px 75px;
+
+}
+.newBookForm{
+
+  border-style: solid;
+  border-width: 2px;
+  display: grid;
+  grid-template-columns: 15px 260px 15px;
+
+}
+.newBookFormInner{
+
+  display: grid;
+  grid-template-rows: 15px 40px 30px 10px 40px 30px 10px 40px 30px 10px 40px 40px 15px;
+
+}
+#selected{
+
+  background-color: lightblue;
+
+}
